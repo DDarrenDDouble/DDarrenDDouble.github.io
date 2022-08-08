@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function get_blog_index() {
+        return 3;
+    }
+</script>
+<script src="load.js"></script>
+<div>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            margin:0 auto;
+            display:block;
+        }
+        h1 {
+            text-align:center
+        }
+        h3 {
+            text-align:center
+        }
+    </style>
+
+    <h1>
+        <!--date here-->
+    </h1>
+
+    <h3>
+        <!--write here-->
+    </h3>
+</div>
+<div>
+    <button style="height:100px;width:200px" onclick="load(get_blog_index() - 1)">Previous</button>
+    <button style="height:100px;width:200px" onclick="load(get_blog_index() + 1)">Next</button>
+    <button style="height:100px;width:200px" onclick="window.location.href='index.html'">Home</button>
+</html>
+

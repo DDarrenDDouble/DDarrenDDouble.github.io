@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function get_blog_index() {
+        return 1;
+    }
+</script>
+<script src="load.js"></script>
+<div>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            margin:0 auto;
+            display:block;
+        }
+        h1 {
+            text-align:center
+        }
+        h3 {
+            text-align:center
+        }
+    </style>
+    <h1>
+        8/6/2022:<br>
+    </h1>
+    <h3>
+        I'm on chapter and question 8 of the summer salt book, which is pretty bad cus<br>
+        summer is about to end and i also have another nyt summer assignment but tbh i<br>
+        dont care who cares i dont.
+    </h3>
+    <img src="saltchapter8.png" alt="" width="1422.2" height="800" >
+    <h3>
+        i also went to the gym but im pretty sure i gained more calories than i lost today (also dont really care)
+    </h3>
+    <img src="workoutday1.png" alt="">
+    <h3>
+        also if ur wondering why my website looks a lot like jun's its because i literally just copied his entire<br>
+        website stucture and just changed the words (thx jun for spending 3 hours on this website)
+    </h3>
+
+</div>
+<div>
+    <button style="height:100px;width:200px" onclick="load(get_blog_index() - 1)">Previous</button>
+    <button style="height:100px;width:200px" onclick="load(get_blog_index() + 1)">Next</button>
+    <button style="height:100px;width:200px" onclick="window.location.href='index.html'">Home</button>
+</html>
